@@ -1,0 +1,71 @@
+
+
+.Banner {
+    /* The image used */
+    background-color: #414141;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: grid;
+    grid-auto-columns: minmax(10%, 10%);
+}
+
+.InfoPanel {
+    grid-column: 1 / 8;
+    background-color: #303030;
+
+    backdrop-filter: blur(25px); 
+
+}
+
+.PhotoPanel {
+    grid-column: 8 / 11;
+    background-color: #ec625f;
+}
+
+.PhotoPanel > img {
+    width: 100%;
+    height: auto;
+}
+
+.NameText {
+    color: #ec625f;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.HiText {
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.InfoText {
+    color: white;
+    font-size: 2.5em;
+}
+
+.NameH {
+    padding-top: 10vh;
+}
+
+.InfoH{
+    padding-top: 10vh;
+}
+
+.f {
+    background-color: black;
+    height: 35vh;
+}
+
+.afa {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
