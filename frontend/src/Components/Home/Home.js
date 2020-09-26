@@ -54,8 +54,6 @@ export default class Home extends React.Component {
 						<img src="./foto-agus.png" alt="" />
 					</div>
 				</div>
-				<div className="f"></div>
-				Hola
 			</div>
 		);
 	}

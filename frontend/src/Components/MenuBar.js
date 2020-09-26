@@ -29,7 +29,7 @@ const MenuBar = () => {
                             textDecoration: "inherit",
                         }}
                     >
-                        <i className="fa fa-pencil-square-o fa-fw pointer"></i>
+                        <i className="fa fa-tasks fa-fw pointer"></i>
                         Projects
                     </Link>
                 </div>

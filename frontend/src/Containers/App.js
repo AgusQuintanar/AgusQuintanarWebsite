@@ -3,10 +3,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import "../Components/MenuBar";
 import MenuBar from "../Components/MenuBar";
-import Home from "../Components/Home/Home"
-
+import Home from "../Components/Home/Home";
+import Skills from "../Components/Skills/Skills";
+import Projects from "../Components/Projects/Projects";
+import Distinctions from "../Components/Distinctions/Distinctions";
+import Social from "../Components/Social/Social";
 class App extends React.Component {
-
 	componentDidMount() {
 		document.title = "Agus Quintanar | Computer Systems Engineer";
 	}
@@ -15,20 +17,22 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<Router>
-					{/* <ProtectedRoute path="/" render={() => <MenuBar />} /> */}
-
-					<Route path="/" render={() => <MenuBar />} />
+					{/* <Route path="/" render={() => <MenuBar />} /> */}
 
 					<Switch>
-
 						<Route
 							exact
 							path="/"
 							render={() => (
-								<Home  />
+								<div>
+									<Home />
+									<Skills />
+									<Projects />
+									<Distinctions />
+									<Social />
+								</div>
 							)}
 						/>
-
 
 						{/* Primer Render de la app */}
 						<Route
@@ -52,4 +56,3 @@ class App extends React.Component {
 }
 
 export default App;
-

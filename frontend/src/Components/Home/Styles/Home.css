@@ -56,16 +56,3 @@
     padding-top: 10vh;
 }
 
-.f {
-    background-color: black;
-    height: 35vh;
-}
-
-.afa {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-}

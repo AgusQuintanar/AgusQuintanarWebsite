@@ -1,10 +1,14 @@
+.Projects {
+	background-color: #414141;
+}
+
 .content-wrapper {
 	margin: 0 auto;
-	max-width: 1200px;
+	/* max-width: 1200px; */
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	padding: 0.5rem;
+	padding: 0.5rem 8rem;
 }
 
 .news-card {
@@ -56,7 +60,7 @@
 	height: 100%;
 	display: block;
 	object-fit: cover;
-	transition: transform 3s ease;
+	transition: transform 2s ease;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	position: relative;
@@ -98,7 +102,7 @@
 		background-color: rgba(0, 0, 0, 0.6);
 	}
 	.news-card:hover .news-card__title {
-		color: yellow;
+		color: #ec625f;
 	}
 	.news-card:hover .news-card__image {
 		transform: scale(1.2);
@@ -140,4 +144,17 @@
 .news-card__read-more:hover i {
 	left: 0.5rem;
 	color: yellow;
+}
+
+.titleP {
+	font-size: 2.5em;
+	color: #e26641;
+	padding: 1em 1em 1em 1.5em;
+	align-self: start;
+	text-align: left;
+	background-color: #414141;
+}
+
+.titleP > i {
+	padding-right: .3em;
 }
