@@ -21,6 +21,8 @@
 .socialContainer .card {
     position: relative;
     border-radius: 10px;
+    cursor: pointer;
+
 }
 
 .socialContainer .card .icon {

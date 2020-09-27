@@ -13,26 +13,23 @@ export default class Home extends React.Component {
 				</div>
 				<div className="content-wrapper">
 					<div className="news-card">
-						<a href="#" className="news-card__card-link"></a>
+						<a href="https://github.com/FundacionLaika/Laika_WebPage" target="_blank" className="news-card__card-link"></a>
 						<img
-							src="https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+							src="./project1.jpg"
 							alt=""
 							className="news-card__image"
 						/>
 						<div className="news-card__text-wrapper">
 							<h2 className="news-card__title">
-								Amazing First Title
+                                Laika’s Web App
 							</h2>
-							<div className="news-card__post-date">Jan 29, 2018</div>
+							<div className="news-card__post-date">Jul 2020 - Present </div>
 							<div className="news-card__details-wrapper">
 								<p className="news-card__excerpt">
-									Lorem ipsum dolor sit amet consectetur
-									adipisicing elit. Est pariatur nemo tempore
-									repellat? Ullam sed officia iure architecto
-									deserunt distinctio, pariatur&hellip;
+                                Developed a web database app for Fundación Laika, with over 150+ active stay animals and 8,000+ rescued animals.
 								</p>
-								<a href="#" className="news-card__read-more">
-									Read more{" "}
+								<a href="https://github.com/FundacionLaika/Laika_WebPage" target="_blank"  className="news-card__read-more">
+									GitHub{" "}
 									<i className="fas fa-long-arrow-alt-right"></i>
 								</a>
 							</div>
@@ -40,25 +37,23 @@ export default class Home extends React.Component {
 					</div>
 
 					<div className="news-card">
-						<a href="#" className="news-card__card-link"></a>
+						<a href="https://github.com/VSSS-AlphaSoccerFC" target="_blank" className="news-card__card-link"></a>
 						<img
-							src="https://images.pexels.com/photos/631954/pexels-photo-631954.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+							src="./project2.png"
 							alt=""
 							className="news-card__image"
 						/>
 						<div className="news-card__text-wrapper">
 							<h2 className="news-card__title">
-								Amazing Second Title that is Quite Long
+                                LARC Very Small Size Soccer
 							</h2>
-							<div className="news-card__post-date">Jan 29, 2018</div>
+							<div className="news-card__post-date">Jan 2020 - Present </div>
 							<div className="news-card__details-wrapper">
 								<p className="news-card__excerpt">
-									Lorem ipsum dolor sit amet, consectetur
-									adipisicing elit. Ullam obcaecati ex natus
-									nulla rem sequi laborum quod fugit&hellip;
+                                Developed a game strategy for a 3 vs 3 autonomous robot soccer competition using computer vision.
 								</p>
-								<a href="#" className="news-card__read-more">
-									Read more{" "}
+								<a href="https://github.com/VSSS-AlphaSoccerFC" target="_blank" className="news-card__read-more">
+									GitHub{" "}
 									<i className="fas fa-long-arrow-alt-right"></i>
 								</a>
 							</div>
@@ -66,22 +61,21 @@ export default class Home extends React.Component {
 					</div>
 
 					<div className="news-card">
-						<a href="#" className="news-card__card-link"></a>
+						<a href="https://github.com/AgusQuintanar/Aether" target="_blank" className="news-card__card-link"></a>
 						<img
-							src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+							src="./project3.png"
 							alt=""
 							className="news-card__image"
 						/>
 						<div className="news-card__text-wrapper">
-							<h2 className="news-card__title">Amazing Title</h2>
-							<div className="news-card__post-date">Jan 29, 2018</div>
+							<h2 className="news-card__title"> Aether </h2>
+							<div className="news-card__post-date">Sep 2019 – Nov 2019</div>
 							<div className="news-card__details-wrapper">
 								<p className="news-card__excerpt">
-									Lorem ipsum dolor sit amet consectetur
-									adipisicing elit. Officiis beatae&hellip;
+                                Developed a web search engine that indexed 20,000+ websites using Java, React and Node.js.
 								</p>
-								<a href="#" className="news-card__read-more">
-									Read more{" "}
+								<a href="https://github.com/AgusQuintanar/Aether" target="_blank" className="news-card__read-more">
+									GitHub{" "}
 									<i className="fas fa-long-arrow-alt-right"></i>
 								</a>
 							</div>
@@ -89,23 +83,23 @@ export default class Home extends React.Component {
 					</div>
 
 					<div className="news-card">
-						<a href="#" className="news-card__card-link"></a>
+						<a href="https://github.com/AgusQuintanar/CyclicCutwidth" target="_blank" className="news-card__card-link"></a>
 						<img
-							src="https://images.pexels.com/photos/248486/pexels-photo-248486.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+							src="./project4.png"
 							alt=""
 							className="news-card__image"
 						/>
 						<div className="news-card__text-wrapper">
 							<h2 className="news-card__title">
-								Amazing Forth Title that is Quite Long
+                            Cyclic Cutwidth Minimization
 							</h2>
-							<div className="news-card__post-date">Jan 29, 2018</div>
+							<div className="news-card__post-date">Jun 2020</div>
 							<div className="news-card__details-wrapper">
 								<p className="news-card__excerpt">
-									Lorem ipsum dolor sit amet!
+                                An implementation of a metaheuristic for solving the Cyclic Cutwidth Minimization Problem.
 								</p>
-								<a href="#" className="news-card__read-more">
-									Read more{" "}
+								<a href="https://github.com/AgusQuintanar/CyclicCutwidth" target="_blank" className="news-card__read-more">
+									GitHub{" "}
 									<i className="fas fa-long-arrow-alt-right"></i>
 								</a>
 							</div>
@@ -113,26 +107,23 @@ export default class Home extends React.Component {
 					</div>
 
 					<div className="news-card">
-						<a href="#" className="news-card__card-link"></a>
+						<a href="https://github.com/AgusQuintanar/AlphaArcade" target="_blank" className="news-card__card-link"></a>
 						<img
-							src="https://images.pexels.com/photos/206660/pexels-photo-206660.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+							src="./project5.webp"
 							alt=""
 							className="news-card__image"
 						/>
 						<div className="news-card__text-wrapper">
 							<h2 className="news-card__title">
-								Amazing Fifth Title
+								PacMan
 							</h2>
-							<div className="news-card__post-date">Jan 29, 2018</div>
+							<div className="news-card__post-date">Mar 2019 - May 2019</div>
 							<div className="news-card__details-wrapper">
 								<p className="news-card__excerpt">
-									Lorem ipsum dolor sit amet consectetur
-									adipisicing elit. Est pariatur nemo tempore
-									repellat? Ullam sed officia iure architecto
-									deserunt distinctio&hellip;
+									Developed PacMan videogame using Java and Swing.
 								</p>
-								<a href="#" className="news-card__read-more">
-									Read more{" "}
+								<a href="https://github.com/AgusQuintanar/AlphaArcade" target="_blank" className="news-card__read-more">
+									GitHub{" "}
 									<i className="fas fa-long-arrow-alt-right"></i>
 								</a>
 							</div>
@@ -140,25 +131,23 @@ export default class Home extends React.Component {
 					</div>
 
 					<div className="news-card">
-						<a href="#" className="news-card__card-link"></a>
+						<a href="https://github.com/AgusQuintanar/RSA-MessagesApp" target="_blank" className="news-card__card-link"></a>
 						<img
-							src="https://images.pexels.com/photos/210243/pexels-photo-210243.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+							src="./project6.png"
 							alt=""
 							className="news-card__image"
 						/>
 						<div className="news-card__text-wrapper">
 							<h2 className="news-card__title">
-								Amazing 6<sup>th</sup> Title
+								RSA Messages App
 							</h2>
-							<div className="news-card__post-date">Jan 29, 2018</div>
+							<div className="news-card__post-date">Jun 2020</div>
 							<div className="news-card__details-wrapper">
 								<p className="news-card__excerpt">
-									Lorem ipsum dolor sit amet consectetur
-									adipisicing elit. Est pariatur nemo tempore
-									repellat? Ullam sed officia.
+									Developed an encrypted messages using Python and TKinter.
 								</p>
-								<a href="#" className="news-card__read-more">
-									Read more{" "}
+								<a href="https://github.com/AgusQuintanar/RSA-MessagesApp" target="_blank" className="news-card__read-more">
+									GitHub{" "}
 									<i className="fas fa-long-arrow-alt-right"></i>
 								</a>
 							</div>

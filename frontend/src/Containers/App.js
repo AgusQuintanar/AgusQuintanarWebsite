@@ -2,12 +2,13 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import "../Components/MenuBar";
-import MenuBar from "../Components/MenuBar";
 import Home from "../Components/Home/Home";
 import Skills from "../Components/Skills/Skills";
 import Projects from "../Components/Projects/Projects";
 import Distinctions from "../Components/Distinctions/Distinctions";
 import Social from "../Components/Social/Social";
+import Particles from "react-particles-js";
+
 class App extends React.Component {
 	componentDidMount() {
 		document.title = "Agus Quintanar | Computer Systems Engineer";
@@ -25,6 +26,7 @@ class App extends React.Component {
 							path="/"
 							render={() => (
 								<div>
+									<Particles className="Particles" />
 									<Home />
 									<Skills />
 									<Projects />
