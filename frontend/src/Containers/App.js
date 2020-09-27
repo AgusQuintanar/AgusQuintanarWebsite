@@ -7,7 +7,6 @@ import Skills from "../Components/Skills/Skills";
 import Projects from "../Components/Projects/Projects";
 import Distinctions from "../Components/Distinctions/Distinctions";
 import Social from "../Components/Social/Social";
-import Particles from "react-particles-js";
 
 class App extends React.Component {
 	componentDidMount() {
@@ -26,7 +25,6 @@ class App extends React.Component {
 							path="/"
 							render={() => (
 								<div>
-									<Particles className="Particles" />
 									<Home />
 									<Skills />
 									<Projects />
