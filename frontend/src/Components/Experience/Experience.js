@@ -101,11 +101,7 @@ export default class Experience extends React.Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
-                <div className="Skills">
-                    <div className="grid">
                         <div className="grid__item">
                             <div className="card">
                                 <img

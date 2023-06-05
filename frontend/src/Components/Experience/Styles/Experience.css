@@ -16,8 +16,9 @@
 	display: grid;
 	width: 114rem;
 	grid-gap: 2rem;
-	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 	align-items: start;
+	grid-auto-rows: 1fr;
 }
 @media (max-width: 60em) {
 	.grid {
@@ -31,6 +32,7 @@
 	box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 	transition: 0.2s;
+	grid-auto-rows: 1fr;
 }
 .grid__item:hover {
 	transform: translateY(-0.5%);
@@ -67,6 +69,9 @@
 	line-height: 1.7;
 	color: white;
 	margin-bottom: 1.5rem;
+	white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
 }
 
 .card__text_exp > .sec2 {
