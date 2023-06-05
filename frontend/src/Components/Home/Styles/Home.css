@@ -19,7 +19,7 @@
 
 .PhotoPanel {
     grid-column: 8 / 11;
-    background-color: #ec625f;
+    background-color: #303030;
 }
 
 .PhotoPanel > img {
@@ -28,7 +28,7 @@
 }
 
 .NameText {
-    color: #ec625f;
+    color: #9DB2BF;
     font-size: 4em;
     font-weight: bold;
 }

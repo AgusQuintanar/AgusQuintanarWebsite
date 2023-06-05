@@ -1,0 +1,78 @@
+.Skills {
+    display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 2rem 8rem;
+	background-color: #414141;
+	font-family: "Inter", sans-serif;
+}
+@media (max-width: 60em) {
+	body {
+		padding: 3rem;
+	}
+}
+
+.grid {
+	display: grid;
+	width: 114rem;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+	align-items: start;
+}
+@media (max-width: 60em) {
+	.grid {
+		grid-gap: 3rem;
+	}
+}
+.grid__item {
+	background-color: #313131;
+	border-radius: 0.4rem;
+	overflow: hidden;
+	box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition: 0.2s;
+}
+.grid__item:hover {
+	transform: translateY(-0.5%);
+	box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+
+.card__img {
+	display: block;
+	width: 100%;
+	height: 15rem;
+	object-fit: cover;
+}
+.card__content {
+	padding: 1rem 3rem;
+}
+.card__header {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: #9DB2BF;
+	margin-bottom: 1rem;
+	font-weight: 600;
+}
+.card__text_exp {
+	font-size: 1rem;
+	letter-spacing: 0.1rem;
+	line-height: 1.7;
+	color: white;
+	margin-bottom: 1.5rem;
+}
+
+.card__text_exp > .sec1 {
+	font-size: 1.1rem;
+	letter-spacing: 0.1rem;
+	line-height: 1.7;
+	color: white;
+	margin-bottom: 1.5rem;
+}
+
+.card__text_exp > .sec2 {
+	font-size: 0.85rem;
+	letter-spacing: 0.1rem;
+	line-height: 1.7;
+	color: white;
+	margin-bottom: 1.5rem;
+}

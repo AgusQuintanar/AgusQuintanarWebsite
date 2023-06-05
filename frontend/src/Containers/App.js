@@ -7,6 +7,7 @@ import Skills from "../Components/Skills/Skills";
 import Projects from "../Components/Projects/Projects";
 import Distinctions from "../Components/Distinctions/Distinctions";
 import Social from "../Components/Social/Social";
+import Experience from "../Components/Experience/Experience";
 
 class App extends React.Component {
 	componentDidMount() {
@@ -26,8 +27,9 @@ class App extends React.Component {
 							render={() => (
 								<div>
 									<Home />
-									<Skills />
+									<Experience />
 									<Projects />
+									<Skills />
 									<Distinctions />
 									<Social />
 								</div>

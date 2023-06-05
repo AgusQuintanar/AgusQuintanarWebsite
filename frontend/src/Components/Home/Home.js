@@ -27,7 +27,7 @@ export default class Home extends React.Component {
 							/>
 							{this.state.nameStatus >= 1 ? (
 								<Typewriter
-									string="Agus Quintanar "
+									string="Agustin Quintanar "
 									delay={80}
 									className="NameText"
 									initDelay
@@ -43,7 +43,7 @@ export default class Home extends React.Component {
 						{this.state.nameStatus === 2 ? (
 							<div className="InfoH">
 								<Typewriter
-									string="A Computer Systems Engineering Student "
+									string="A Computer Systems Engineer "
 									delay={80}
 									className="InfoText"
 									initDelay
@@ -52,7 +52,7 @@ export default class Home extends React.Component {
 						) : null}
 					</div>
 					<div className="PhotoPanel">
-						<img src="./foto-agus.png" alt="" />
+						<img src="./foto2.PNG" alt="" />
 					</div>
 				</div>
 			</div>

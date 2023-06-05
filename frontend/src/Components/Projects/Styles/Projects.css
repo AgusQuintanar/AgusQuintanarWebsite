@@ -148,13 +148,20 @@
 
 .titleP {
 	font-size: 2.5em;
-	color: #F78856;
+	color: #9DB2BF;
 	padding: 1em 1em 1em 1.5em;
 	align-self: start;
 	text-align: left;
 	background-color: #414141;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 1.5em 1em .2em 1em;
 }
 
 .titleP > i {
 	padding-right: .3em;
+	/* -webkit-text-stroke: .5px #9DB2BF;
+	color: #313131; */
+	color: rgb(117, 146, 169)
+
 }
